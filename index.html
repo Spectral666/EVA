@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.1-web/css/all.min.css">
+    <title>EVA</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Proyecto de responsive web design</h1>
+        <i class="fas fa-desktop"></i>
+    </header>
+
+    <div class="navbar">
+        <a href="#header"><span class="fas fa-arrow-up"></span></a>
+        <a href="#meta">Etiqueta Meta</a>
+        <a href="#metaviewport">Meta Viewport</a>
+        <a href="#mediaq">Media Queries</a>
+    </div>
+
+    <section class="tutorial">
+        <h2>Tutorial de responsive design</h2>
+        <iframe width="960" height="515" src="https://www.youtube.com/embed/srvUrASNj0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="meta">
+        <div class="column-1">
+            <div class="tarjeta">
+                <h2>Etiqueta Meta</h2>
+                <p>Las etiquetas meta son aquellas que representan metadatos a nuestra web, las cuales siempre van acompañadas de atributos.<br>Siempre se ubican en el <b>head</b> y... sobretodo.<br><br>¡¡¡NO OLVIDES PONERLAS JAMÁS!!!</p>
+            </div>
+        </div>
+        <div class="column-1">
+            <img src="./img/html-meta-tags.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="metaviewport">
+        <div class="column-1">
+            <img src="./img/metaviewport.png" alt="">
+        </div>
+        <div class="column-1">
+            <div class="tarjeta">
+                <h2>Meta Viewport</h2>
+                <p>Es la etiqueta imprescindible para hacer nuestra web responsive. Esta nos permitirá adaptar nuestros elementos, viewport calcula la pantalla del usuario final y este lo hace ajustable a el. <br><br>Nunca va solo, sinó que acompañado de su (content="width=device-width)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mediaq">
+        <div class="column-1">
+            <div class="tarjeta">
+                <h2>Mediaqueries</h2>
+                <p>Estos parámetros son la guinda del pastel ;D Son una especie de condicionales los cuales cuando la condición se cumple, suceden los cambios que nosotros ayamos establecido. <br><br>¿Increíble no?</p>
+            </div>
+        </div>
+        <div class="column-1">
+            <img src="./img/mediaqueries.png" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <h3>Sé capaz de hacer tu web responsive!!!</h3>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES" selected>Español</option>
+            <option value="EN">English</option>
+        </select>
+    </footer>
+
+    <script src="./js/codigo.js"></script>
+
+</body>
+</html>
